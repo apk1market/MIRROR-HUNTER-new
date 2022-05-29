@@ -3,13 +3,13 @@ from bot import CMD_INDEX
 
 class _BotCommands:
     def __init__(self):
-        self.StartCommand = f'start'
+        self.StartCommand = f'start{CMD_INDEX}'
         self.MirrorCommand = f'mirror{CMD_INDEX}'
         self.UnzipMirrorCommand = f'unzipmirror{CMD_INDEX}'
         self.ZipMirrorCommand = f'zipmirror{CMD_INDEX}'
         self.CancelMirror = f'cancel{CMD_INDEX}'
         self.CancelAllCommand = f'cancelall{CMD_INDEX}'
-        self.ListCommand = f'listbdj'
+        self.ListCommand = f'list'
         self.SearchCommand = f'search{CMD_INDEX}'
         self.StatusCommand = f'status'
         self.AuthorizedUsersCommand = f'users{CMD_INDEX}'
