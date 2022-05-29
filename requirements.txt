@@ -1,7 +1,7 @@
 aiohttp
 anytree
 appdirs
-aria2p
+git+https://github.com/tmadminz/arerep
 asgiref
 attrdict
 beautifulsoup4
@@ -19,11 +19,12 @@ pillow
 psutil
 psycopg2-binary
 pybase64
-pyrogram==1.4.16
+pyrogram
+pyshorteners
 python-dotenv
 python-magic
 python-telegram-bot
-qbittorrent-api
+git+https://github.com/tmadminz/qbkro
 requests
 six
 telegraph
@@ -31,6 +32,6 @@ tenacity
 tgCrypto
 gc-python-utils
 urllib3
-yt-dlp
+git+https://github.com/tmadminz/pldty
 lxml
 megasdkrestclient
